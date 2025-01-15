@@ -1,14 +1,27 @@
 // components/Navbar.tsx
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { getAssets } from "@/utils/get-assets";
 
 const Navbar = () => {
+
+  const hospital = getAssets.logo.btrc
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto flex justify-between items-center px-4 py-2 md:py-4">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-600">
-          <Link href="/">CareCenter</Link>
+          <Link className="flex justify-center items-center" href="/">
+            <Image
+              src={hospital}
+              alt="Hospital"
+              width={600}
+              height={400}
+              className=" w-14 h-14 transparent"
+            />
+            <h3 className="text-5xl ml-2">BTRC</h3>
+          </Link>
         </div>
 
         {/* Nav Links */}
@@ -36,7 +49,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-    
+
         <div className="md:hidden">
           <button
             id="menu-button"

@@ -1,13 +1,14 @@
 
 
+
 import React from 'react';
 
-const Payment = () => {
+const About = () => {
     return (
         <div>
-            this is payment page./.
+            About page
         </div>
     );
 };
 
-export default Payment;
+export default About;

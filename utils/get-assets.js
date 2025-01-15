@@ -29,7 +29,7 @@ const team = {
     tayub
 }
 
-const getAssets = {
+export const getAssets = {
     logo,
     hospital,
     team
