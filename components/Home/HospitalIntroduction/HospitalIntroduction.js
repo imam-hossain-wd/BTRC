@@ -24,16 +24,13 @@ const HospitalIntroduction = () => {
             About Our Hospital
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-          Bewarish Treatment & Rehabilitation Center is committed to providing compassionate care
-            and exceptional medical services. Established in [Year], we have
-            been serving our community with advanced healthcare and
-            rehabilitation solutions.
+          The Beowarish Medical and Rehabilitation Center is a compassionate healthcare facility operated under the Beowarish Sewa Foundation. We are dedicated to rescuing and providing free medical care to abandoned, critically ill, and helpless individuals found on the streets. Our specialized medical team, including doctors and health officers, offers 24/7 care, ensuring proper treatment, shelter, food, and rehabilitation for those in need.
           </p>
-          <p className="mt-4 text-lg text-gray-600">
+          {/* <p className="mt-4 text-lg text-gray-600">
             Equipped with state-of-the-art facilities and an expert team of
             professionals, we ensure every patient receives personalized care in
             a comfortable environment.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

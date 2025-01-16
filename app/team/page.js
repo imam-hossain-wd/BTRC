@@ -1,13 +1,9 @@
 
+import MeetOurTeam from '@/components/Home/MeetOurTeam/MeetOurTeam';
 
-import React from 'react';
 
 const Team = () => {
-    return (
-        <div>
-            This is our team
-        </div>
-    );
+    return <MeetOurTeam />
 };
 
 export default Team;
